@@ -128,7 +128,7 @@ class SkillShare extends Component<> {
                 <Text style={{marginTop:pixelResolverObject.getHeight(5)}}>{obj.tech}</Text>
                 <View style={{flexDirection:'row', marginTop:pixelResolverObject.getHeight(30)}}>
 
-                    <TouchableOpacity onPress={()=>this.BookmarkAPI(obj.id)} style={[styles.SelectButton]}><Text style={{color:'white'}}>Bookmark</Text></TouchableOpacity>
+                    <TouchableOpacity onPress={()=>this.BookmarkAPI(obj.user_id)} style={[styles.SelectButton]}><Text style={{color:'white'}}>Bookmark</Text></TouchableOpacity>
                     <TouchableOpacity onPress={()=>{Linking.openURL('fb-messenger://user/'+obj.facebook_id).catch(err => console.error('An error occurred', err));}} style={[styles.SelectButton, {marginLeft:pixelResolverObject.getWidth(100)}]}><Text style={{color:'white'}}>Connect</Text></TouchableOpacity>
                 </View>
             </View>
