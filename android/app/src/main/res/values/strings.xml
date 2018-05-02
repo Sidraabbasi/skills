@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SkillsMarket</string>
+    <string name="facebook_app_id">136046580584669</string>
+    <string name="fb_login_protocol_scheme">fb136046580584669</string>
+
+</resources>
